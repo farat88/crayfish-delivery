@@ -1,0 +1,41 @@
+section {
+    width: 100%;
+    height: 3%;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.main-header__navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    background: linear-gradient(to top, #9a6844, #bb4f01);
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.main-header__logo {
+    display: flex;
+    justify-content: center;
+}
+.main-header__logo svg{
+    fill: aqua;
+}
+.main-header__site-name {
+    width: 25%;
+}
