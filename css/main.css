@@ -1,41 +1,82 @@
 section {
-    width: 100%;
-    height: 3%;
-    margin: 0px;
-    border-radius: 0px;
+    background-image: url(../img/BMH.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    height: 500px;
+    margin: -8px;
 }
 
 .main-header__navigation {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 70px;
+    margin: -8px;
     font-size: 25px;
-    color: white;
-    background: linear-gradient(to top, #9a6844, #bb4f01);
+    color: lightgray;
+    background: linear-gradient(to top, #1f1f1d, #921908);
+}
+
+.main-header__logo {
+    display: flex;
+    justify-content: center;
+    margin-left: 45px;
+}
+
+.main-header__site-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-left: -4%;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s linear;
+}
+
+.main-header__site-name:hover {
+    color: red;
+    transition: 1s linear;
 }
 
 ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
 }
 
 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
+    width: 18%;
+    height: 70px;
+    text-transform: capitalize;
+    transition: 0.5s linear;
+}
+
+li:hover {
+    color: red;
+    text-decoration: underline;
 }
 
 a {
     text-decoration: none;
     color: white;
 }
-.main-header__logo {
+
+.main-header__cart {
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 3%;
 }
-.main-header__logo svg{
-    fill: aqua;
-}
-.main-header__site-name {
-    width: 25%;
+
+.main-header__cart:hover {
+    fill: white;
 }
