@@ -1,9 +1,8 @@
 section {
-    background-image: url(../img/BMH.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../img/99ba9f92d6915dd4dcba28448029b493.jpg);
+    background-size: contain;
     background-attachment: scroll;
-    height: 500px;
+    height: 459px;
     margin: -8px;
 }
 
@@ -15,7 +14,7 @@ section {
     margin: -8px;
     font-size: 25px;
     color: lightgray;
-    background: linear-gradient(to top, #1f1f1d, #921908);
+    background: linear-gradient(to top, #212020, #585656, #1b1919);
 }
 
 .main-header__logo {
@@ -30,13 +29,12 @@ section {
     align-items: center;
     width: 25%;
     margin-left: -4%;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     cursor: pointer;
     transition: 1s linear;
 }
 
 .main-header__site-name:hover {
-    color: red;
     transition: 1s linear;
 }
 
@@ -61,12 +59,18 @@ li {
 
 li:hover {
     color: red;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
 }
 
 a {
     text-decoration: none;
     color: white;
+    transition: 0.2s linear;
+}
+
+a:hover {
+    transition: 0.2s linear;
+    color: #ab4408;
 }
 
 .main-header__cart {
@@ -79,4 +83,66 @@ a {
 
 .main-header__cart:hover {
     fill: white;
+}
+
+.main-header__contacts {
+    width: 100%;
+    text-align: center;
+    margin-top: 4%;
+}
+
+.main-header__phone-number {
+    font-size: 25px;
+    color: ghostwhite;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+
+.main-header__phone-number:hover {
+    color: #ab4408;
+    transition: 0.2s linear;
+    text-decoration: underline;
+}
+
+.main-header__address {
+    font-size: 22px;
+    color: ghostwhite;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
+.main-header__address:hover {
+    color: #ab4408;
+    transition: 0.2s linear;
+}
+
+.main-header__entrance-store {
+    margin-top: 2%;
+    width: 8%;
+    height: 42px;
+    font-size: 16px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    color: white;
+    background: #212020;
+    transition: 1s linear;
+    cursor: pointer;
+}
+
+.main-header__entrance-store:hover {
+    background: linear-gradient(45deg, black, transparent);
+    transition: 1s linear;
+}
+
+.main-header__information {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 19%;
+    margin-top: 3%;
+    font-size: 19px;
+    color: #ab4408;;
+    border: 4px solid grey;
+    padding: 8px;
 }
