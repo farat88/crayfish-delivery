@@ -6,34 +6,50 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-<section>
-    <header class="main-header">
-        <nav class="main-header__navigation">
-            <a class="main-header__logo">
-                <img src="img/crayfish-logo.svg" width="25%" height="25%" alt="crayfish">
-            </a>
-            <a href="#" class="main-header__site-name">Вятский раК</a>
-            <ul>
-                <li><a href="#">магазин</a></li>
-                <li><a href="#">галерея</a></li>
-                <li><a href="#">отзывы</a></li>
-                <li><a href="#">скидки</a></li>
-                <li><a href="#">контакты</a></li>
-            </ul>
-            <a class="main-header__cart">
-                <img src="img/cart.svg" width="10%" height="10%">
-            </a>
-        </nav>
-        <nav class="main-header__contacts">
-            <div class="main-header__phone-number">+7-(909)-132-72-56</div>
-            <div class="main-header__address">Киров</br>Нововятск ул.Кудрявых рук д.14 кв.88</div>
-            <button class="main-header__entrance-store" value="в магазин">в магазин</button>
-            <p class="main-header__information">ВТОРНИК 14 АПРЕЛЯ <br/>
-                Уважаемые покупатели, на сегодня все продано. Новый завоз ожидаем в пятницу 17 апреля. Оставайтесь дома,
-                заказывайте online и будьте здоровы!</p>
-        </nav>
-    </header>
-</section>
+<header class="main-header">
+    <nav class="main-header__navigation">
+        <a class="main-header__logo">
+            <img src="img/crayfish-logo.svg" width="25%" height="25%" alt="crayfish">
+        </a>
+        <h1 class="main-header__site-name">Вятский раК</h1>
+        <ul>
+            <li><a href="#">магазин</a></li>
+            <li><a href="#">галерея</a></li>
+            <li><a href="#">отзывы</a></li>
+            <li><a href="#">скидки</a></li>
+            <li><a href="#">контакты</a></li>
+        </ul>
+        <a class="main-header__cart">
+            <img src="img/cart.svg" width="10%" height="10%">
+        </a>
+    </nav>
+    <nav class="main-header__contacts">
+        <div class="main-header__phone-number">+7-(909)-132-72-56</div>
+        <div class="main-header__address">Киров</br>Нововятск ул.Кудрявых рук д.14 кв.88</div>
+        <button class="main-header__entrance-store" value="в магазин">в магазин</button>
+        <p class="main-header__information">ДЕНЬ ЧИСЛО МЕСЯЦ<br/>
+            Уважаемые покупатели, на сегодня все продано. Новый завоз ожидаем в ДАТА. Оставайтесь дома,
+            заказывайте online и будьте здоровы!</p>
+    </nav>
+</header>
+<nav class="block-menu__navigtaion">
+    <button class="block-menu__button" value="как купить">как купить</button>
+    <button class="block-menu__button" value="скидки">скидки</button>
+    <button class="block-menu__button" value="отзывы">отзывы</button>
+    <button class="block-menu__button" value="контакты">контакты</button>
+</nav>
+<nav class="block-menu__price">
+    <div class="block-menu__name">
+        <img сlass="block-menu__icon" src="img/price.svg">
+        <h2 class="block-menu__heading">цены</h2>
+    </div>
+    <ul class="block-menu__list">
+        <li><a class="block-menu__list-link" href="#">живые раки</a></li>
+        <li><a class="block-menu__list-link" href="#">вареные раки</a></li>
+        <li><a class="block-menu__list-link" href="#">специи</a></li>
+        <li><a class="block-menu__list-link" href="#">посуда</a></li>
+    </ul>
+</nav>
 <script src="js/script.js"></script>
 </body>
 </html>
